@@ -1,0 +1,85 @@
+\hypertarget{main_8cpp}{}\doxysection{D\+:/23/labpr\+\_\+2/main.cpp File Reference}
+\label{main_8cpp}\index{D:/23/labpr\_2/main.cpp@{D:/23/labpr\_2/main.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$chrono$>$}\newline
+{\ttfamily \#include $<$iterator$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$map$>$}\newline
+Include dependency graph for main.\+cpp\+:
+% FIG 0
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structhousing__estate}{housing\+\_\+estate}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{main_8cpp_a781cb79acd4f7a6f413df9edff5f61b7}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{structhousing__estate}{housing\+\_\+estate}} \&h)
+\item 
+{\footnotesize template$<$class T $>$ }\\std\+::vector$<$ int $>$ \mbox{\hyperlink{main_8cpp_a14502644edd8a641569fd1760e3e8f9a}{Linear\+Search}} (vector$<$ T $>$ \&a, int size, string key)
+\item 
+{\footnotesize template$<$class T $>$ }\\int \mbox{\hyperlink{main_8cpp_a409053b6697c37b39a63d467b99ced8f}{partition}} (vector$<$ T $>$ \&nums, int low, int high)
+\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{main_8cpp_a0cf3962b833554ad0bdf1b8f8d1da119}{quick\+Sort}} (vector$<$ T $>$ \&nums, int low, int high)
+\item 
+{\footnotesize template$<$class T $>$ }\\std\+::pair$<$ int, int $>$ \mbox{\hyperlink{main_8cpp_a132e83e276933380fd5d2e82fdf7d8a6}{Bin\+Search}} (vector$<$ T $>$ a, string key, int low, int high)
+\item 
+void \mbox{\hyperlink{main_8cpp_a00b2737740bc45a0491f17971093340d}{File}} (string file, int sort, string k)
+\item 
+int \mbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a132e83e276933380fd5d2e82fdf7d8a6}\label{main_8cpp_a132e83e276933380fd5d2e82fdf7d8a6}} 
+\index{main.cpp@{main.cpp}!BinSearch@{BinSearch}}
+\index{BinSearch@{BinSearch}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{BinSearch()}{BinSearch()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+std\+::pair$<$ int, int $>$ Bin\+Search (\begin{DoxyParamCaption}\item[{vector$<$ T $>$}]{a,  }\item[{string}]{key,  }\item[{int}]{low,  }\item[{int}]{high }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8cpp_a00b2737740bc45a0491f17971093340d}\label{main_8cpp_a00b2737740bc45a0491f17971093340d}} 
+\index{main.cpp@{main.cpp}!File@{File}}
+\index{File@{File}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{File()}{File()}}
+{\footnotesize\ttfamily void File (\begin{DoxyParamCaption}\item[{string}]{file,  }\item[{int}]{sort,  }\item[{string}]{k }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8cpp_a14502644edd8a641569fd1760e3e8f9a}\label{main_8cpp_a14502644edd8a641569fd1760e3e8f9a}} 
+\index{main.cpp@{main.cpp}!LinearSearch@{LinearSearch}}
+\index{LinearSearch@{LinearSearch}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{LinearSearch()}{LinearSearch()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+std\+::vector$<$ int $>$ Linear\+Search (\begin{DoxyParamCaption}\item[{vector$<$ T $>$ \&}]{a,  }\item[{int}]{size,  }\item[{string}]{key }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8cpp_a781cb79acd4f7a6f413df9edff5f61b7}\label{main_8cpp_a781cb79acd4f7a6f413df9edff5f61b7}} 
+\index{main.cpp@{main.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{structhousing__estate}{housing\+\_\+estate}} \&}]{h }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8cpp_a409053b6697c37b39a63d467b99ced8f}\label{main_8cpp_a409053b6697c37b39a63d467b99ced8f}} 
+\index{main.cpp@{main.cpp}!partition@{partition}}
+\index{partition@{partition}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{partition()}{partition()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+int partition (\begin{DoxyParamCaption}\item[{vector$<$ T $>$ \&}]{nums,  }\item[{int}]{low,  }\item[{int}]{high }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8cpp_a0cf3962b833554ad0bdf1b8f8d1da119}\label{main_8cpp_a0cf3962b833554ad0bdf1b8f8d1da119}} 
+\index{main.cpp@{main.cpp}!quickSort@{quickSort}}
+\index{quickSort@{quickSort}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{quickSort()}{quickSort()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void quick\+Sort (\begin{DoxyParamCaption}\item[{vector$<$ T $>$ \&}]{nums,  }\item[{int}]{low,  }\item[{int}]{high }\end{DoxyParamCaption})}
+
